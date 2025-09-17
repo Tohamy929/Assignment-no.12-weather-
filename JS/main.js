@@ -3,7 +3,7 @@ let searchbtn =document.getElementById('inputbtn');
 let allweather=[];
 async function getdata(location) {
 try{
-let response= await fetch(` http://api.weatherapi.com/v1/forecast.json?key=d133467617e44feea2b120800251609&q=${location}&days=7 `)
+let response= await fetch(` https://api.weatherapi.com/v1/forecast.json?key=d133467617e44feea2b120800251609&q=${location}&days=7 `)
 let data= await response.json()
 allweather=data
 console.log(location,allweather)
