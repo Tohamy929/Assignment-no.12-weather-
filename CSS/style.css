@@ -1,0 +1,89 @@
+*{
+box-sizing: border-box;
+}
+.welcomemsg{
+color: #009ad8;
+font-size: 100px;
+padding-bottom: 110px;
+}
+.primary{
+background-color: #1e202b !important;
+}
+.highlight{
+background-color: #009ad8;
+}
+.navlink{ 
+    text-decoration:none;
+  color: white;
+transition: 0.2s;
+border: 2px solid transparent;
+border-radius: 30px;
+padding: 5px 25px;
+}
+.navlink:hover{
+color: #009ad8 ;
+border-color: #009ad8;
+}
+.navbar-brand p{
+font-size: small;
+}
+.active{
+color: #009ad8 ;
+border-color: #009ad8;
+}
+.bgbanner{
+height: 40vh;
+background-image: url(../images/banner.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+thead{
+background-color:#2a2b31;
+}
+tbody{
+background-color:#2e2e3a;
+}
+.midsection{
+background-color:#202029;
+}
+.midhead{
+background-color:#202029;
+}
+footer{
+background-color: #262936;
+
+}
+.footericons{
+color: #009ad8;
+i{
+background-color: #1e202b;
+padding-right: 30px;
+font-size: larger;
+padding: 20px;
+width: 60px;
+margin-right: 10px;
+border-radius: 50%;
+transition: 0.2s;
+}
+i:hover{
+background-color: #009ad8;
+color: white;
+}
+}
+.cardhead{
+background-color: #262936;
+}
+.cardbody{
+background-color: #2e2e3a;
+}
+.cardbody #condition{
+color: #009ad8;
+}
+#useremail{
+width: 75%;
+}
+@media (max-width: 768px){
+#useremail{
+width: 50%;
+}
+}

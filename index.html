@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+</head>
+<body class="primary overflow-x-hidden">
+<nav class="navbar navbar-expand-lg  primary">
+  <div class="container">
+    <a class="navbar-brand text-white" href="#"><img src="./images/logo.png" alt="logo"><h6>Weather</h6><p class="text-white-50">tagline goes here</p></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item p-4">
+          <a class="navlink active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item p-4">
+          <a class="navlink" href="#">News</a>
+        </li>
+        <li class="nav-item p-4">
+          <a class="navlink" href="#">Live Cameras</a>
+        </li>
+         <li class="nav-item p-4">
+          <a class="navlink" href="#">Photos</a>
+        </li>
+         <li class="nav-item p-4 ">
+          <a class="navlink" href="#">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+<div class="pagecontent">
+<div class="bgbanner d-flex justify-content-center align-items-center">
+<div class="w-100 text-center" >
+<input type="text" class="w-75 primary rounded-5 border-0 p-3 text-white" name="location" id="locationinput" placeholder="Find Your Location ...">
+<input type="button" id="inputbtn" value="Find" class="rounded-5 ps-5 pe-5 pt-3 pb-3 highlight text-white border-0">
+</div>
+</div>
+<div class="weatherdata p-3 row justify-content-center align-items-center">
+  <h1 class="welcomemsg text-center">Please input the desired location</h1>
+</div>
+</div>
+</main>
+<footer class="vw-100 pb-4">
+<div class="footercontent container text-white">
+<div class="d-md-flex justify-content-between p-3">
+<form class="w-100 pb-4" >
+<input type="text" class="rounded-5 border-0 p-3 text-white primary" name="email" id="useremail" placeholder="Enter Your Email To Subscribe...">
+<input type="button" value="Subscribe" class="rounded-5 ps-5 pe-5 pt-3 pb-3 highlight text-white border-0">
+</form>
+<ul class="list-unstyled d-flex footericons">
+<li><i class="fa-brands fa-facebook-f"></i></li>
+<li><i class="fa-brands fa-twitter"></i></li>
+<li><i class="fa-brands fa-google-plus-g"></i></li>
+<li><i class="fa-brands fa-pinterest"></i></li>
+</ul>
+</div>
+<p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+</div>
+</footer>
+    <script src="./JS/bootstrap.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
